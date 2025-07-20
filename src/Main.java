@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-/*Question 1 test*//*
+/*Question 1 test*/
         String valid = "ABCD";
         String [] strings = {"AABCDA", "ABCDZADC", "ABCDBCA", "ABCDABDCA"};
         List<Character> validChars = new ArrayList<>();
@@ -13,7 +13,7 @@ public class Main {
 
         Question1_GetLongestString q = new Question1_GetLongestString();
         String result = q.getLongestString(validChars, strings);
-        System.out.println("Longest valid sting: "+ result);*/
+        System.out.println("Longest valid sting: "+ result);
 
 
     }
